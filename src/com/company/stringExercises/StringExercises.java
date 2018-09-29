@@ -8,7 +8,7 @@ public class StringExercises {
             System.out.println("9.13: " + word.charAt(2));
             System.out.println("9.14: " + word.charAt(word.length() - 1));
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println(e);
+            System.err.println(e);
         }
     }
 
@@ -16,7 +16,7 @@ public class StringExercises {
         try {
             return word.charAt(k - 1);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println(e);
+            System.err.println(e);
             return 0;
         }
     }
