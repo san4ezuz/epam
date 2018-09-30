@@ -1,6 +1,5 @@
 # Epam
-
-##Epam homeworks
+## Epam homeworks
 
 Task 1 - Traffic Lights
 

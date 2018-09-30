@@ -29,6 +29,7 @@ public class StringExercises {
             sb.setCharAt(4, first);
             return sb.toString();
         } catch (StringIndexOutOfBoundsException e) {
+            System.err.println(e);
             return "";
         }
     }
