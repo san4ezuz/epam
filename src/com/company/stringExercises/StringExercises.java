@@ -13,25 +13,22 @@ public class StringExercises {
     }
 
     private char getCharAt(String word, int k) {
-        try {
-            return word.charAt(k - 1);
-        } catch (StringIndexOutOfBoundsException e) {
-            System.err.println(e);
-            return 0;
+        if (word.length() <= k) {
+            throw new ArrayIndexOutOfBoundsException("Wrong position");
         }
+            return word.charAt(k - 1);
     }
 
     private String swapChars(String word) {
+        StringBuilder sb = new StringBuilder(word);
         try {
-            StringBuilder sb = new StringBuilder(word);
             char first = sb.charAt(0);
             sb.setCharAt(0, sb.charAt(4));
             sb.setCharAt(4, first);
-            return sb.toString();
         } catch (StringIndexOutOfBoundsException e) {
             System.err.println(e);
-            return "";
         }
+        return sb.toString();
     }
 
     private int getCountCharsInString(String inputString) {
@@ -49,7 +46,8 @@ public class StringExercises {
         }
         if (countCharsInSubStringTemp > countCharsInSubString) {
             return (countCharsInSubStringTemp + 1);
-        } else return (countCharsInSubString + 1);
+        } else
+            return (countCharsInSubString + 1);
     }
 
     private void reverseString(String inputString) {
