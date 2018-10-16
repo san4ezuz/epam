@@ -4,7 +4,7 @@
 
 Task 1 - Traffic Lights [здесь](https://github.com/san4ezuz/epam/tree/tasks/src/com/company/trafficLights)
 
-Task 2 - String Exercises [здесь](https://github.com/san4ezuz/epam/tree/tasks/src/com/company/recursion)
+Task 2 - String Exercises [здесь](https://github.com/san4ezuz/epam/tree/tasks/src/com/company/stringExercises)
 
 Task 3 - Arrays Exercises [здесь](https://github.com/san4ezuz/epam/tree/tasks/src/com/company/arrays)
 
