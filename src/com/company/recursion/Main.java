@@ -1,6 +1,7 @@
 package com.company.recursion;
 
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("10.41: " + new Exercise1041().getFactorial(3));
         System.out.println("10.42: " + new Exercise1042().getPower(2,10));

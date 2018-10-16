@@ -8,18 +8,18 @@ import static org.junit.Assert.*;
 public class Exercise1043Test {
 
     @Test
-    public void testGetSumOfDigits() throws Exception {
+    public void testGetSumOfDigits() {
         assertEquals(20, new Exercise1043().getSumOfDigits(9128));
     }
 
     @Test
-    public void testGetSumOfDigitsOfZero() throws Exception {
+    public void testGetSumOfDigitsOfZero() {
         assertEquals(0, new Exercise1043().getSumOfDigits(0));
     }
 
 
     @Test
-    public void testGetCountOfDigits() throws Exception {
+    public void testGetCountOfDigits() {
         assertEquals(4, new Exercise1043().getCountOfDigits(1234));
     }
 
