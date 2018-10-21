@@ -1,5 +1,10 @@
 package com.company.recursion;
 
+/**
+ * Exercise 10.43
+ * a) Calculating sum of digits of a natural number
+ * b) Calculating amount of digits of a natural number
+ */
 public class Exercise1043 {
 
     public int getSumOfDigits(int n) {

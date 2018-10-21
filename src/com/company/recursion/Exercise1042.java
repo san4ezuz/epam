@@ -1,5 +1,9 @@
 package com.company.recursion;
 
+/**
+ * Exercise 10.42
+ * Calculating power of natural number N
+ */
 public class Exercise1042 {
 
     public int getPower(int n, int power) {

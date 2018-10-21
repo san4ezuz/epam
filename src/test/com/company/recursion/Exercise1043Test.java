@@ -17,7 +17,6 @@ public class Exercise1043Test {
         assertEquals(0, new Exercise1043().getSumOfDigits(0));
     }
 
-
     @Test
     public void testGetCountOfDigits() {
         assertEquals(4, new Exercise1043().getCountOfDigits(1234));

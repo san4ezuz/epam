@@ -1,5 +1,9 @@
 package com.company.recursion;
 
+/**
+ * Exercise 10.41
+ * Calculating factorial of a natural number N
+ */
 public class Exercise1041 {
 
     public int getFactorial(int n) {
