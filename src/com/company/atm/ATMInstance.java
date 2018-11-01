@@ -1,5 +1,8 @@
 package com.company.atm;
 
+/**
+ * ATMInstance class provides overridden from ATMBehavior interface methods for billing.
+ */
 public class ATMInstance implements ATMBehavior {
     private volatile int money;
     private static Object key = new Object();
