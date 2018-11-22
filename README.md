@@ -13,3 +13,8 @@ Task 4 - Recursion Exercises [здесь](https://github.com/san4ezuz/epam/tree/
 Task 5 - Functional Interface [здесь](https://github.com/san4ezuz/epam/tree/master/src/main/java/com/company/functionalInterface)
 
 Task 6 - Automated Teller Machine [здесь](https://github.com/san4ezuz/epam/tree/master/src/main/java/com/company/atm)
+
+Task 7 - Sea Battle [здесь](https://github.com/san4ezuz/epam/tree/master/src/main/java/com/company/seaBattle)
+
+Task 8 - Sorting algoritms [здесь](https://github.com/san4ezuz/epam/tree/master/src/main/java/com/company/algo)
+
