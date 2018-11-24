@@ -11,7 +11,6 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-
         int[] arrayForBinary = {1, 5, 22, 31, 153};
         System.out.println("Input element to find: ");
 
@@ -43,8 +42,8 @@ public class Main {
         System.out.println("Merge Sort: " + Arrays.toString(arrayForMergeSort));
         //RadixSort
         RadixSort radixSort = new RadixSort();
-        radixSort.sort(arrayForMergeSort);
-        System.out.println("Radix Sort: " + Arrays.toString(arrayForMergeSort));
+        radixSort.sort(arrayForRadixSort);
+        System.out.println("Radix Sort: " + Arrays.toString(arrayForRadixSort));
         //QuickSort
         QuickSort quickSort = new QuickSort();
         quickSort.sort(arrayForQuickSort, 0, arrayForQuickSort.length - 1);
